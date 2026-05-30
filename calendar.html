@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URFIDs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="calendar.js" defer></script>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="clothes.html">Clothes</a></li>
+                <li><a href="calendar.html">Calendar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main2">
+        <article class="calendar">
+            <section class="calendar-header">
+                <button id="prev"><i class="fa-solid fa-arrow-left"></i></button>
+                <section id="month-year"></section>
+                <button id="next"><i class="fa-solid fa-arrow-right"></i></button>
+            </section>
+            <section class="weekdays">
+                <h3>Sun</h3>
+                <h3>Mon</h3>
+                <h3>Tues</h3>
+                <h3>Wed</h3>
+                <h3>Thurs</h3>
+                <h3>Fri</h3>
+                <h3>Sat</h3>
+            </section>
+            <section class="days" id="days"></section>
+        </article>
+        <article class="popup">
+            <h3>Select date</h3>
+            <button id="add-event">
+                <i class="fa-solid fa-plus"></i> Add Event
+            </button>
+        </article>
+    </main>
+</body>
+</html>
